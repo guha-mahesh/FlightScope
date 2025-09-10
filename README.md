@@ -12,7 +12,7 @@ The Poisson Distribution Models were trained based off of:
 - Relative Humidity
 - Pressure
 
-The models turned out to be quite weak due to the lack of *Absence* Data, so I do not highly recommend using this model in day to day application. I plan on improving it in the future with aggregated *Absence Data*, to have a control for when the specific bird species *aren't* present. 
+The models turned out to be quite weak due to the lack of *Absence* Data, so I do not recommend using this model in day to day application. I plan on improving it in the future with aggregated *Absence Data*, to have a control for when the specific bird species *aren't* present. 
 Until then, enjoy messing around with the model by:
 
 1. Open your terminal in a directory of your choice and type
