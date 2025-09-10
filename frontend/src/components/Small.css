@@ -1,0 +1,48 @@
+.Search {
+
+    z-index: 1;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+
+.searchbox {
+
+    background-color: white;
+    padding: 1rem;
+    width: 40rem;
+    text-align: center;
+    color: black;
+
+
+}
+
+
+
+.fullSearch {
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+}
+
+.searchItem {
+    color: black;
+    padding: .5rem;
+    border: 1px solid black;
+    z-index: 3;
+    opacity: 1;
+    background-color: #d19178;
+
+}
+
+.searchItem:hover {
+    background-color: #d0b4b4;
+}
+
+
+@media (max-width: 768px) {
+    .searchbox {
+        width: 20rem;
+    }
+}
