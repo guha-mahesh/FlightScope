@@ -1,4 +1,4 @@
-#FlightScope 
+# FlightScope 
 
 FlightScope utilizes data from Cornell's “eBird Basic Dataset (EBD) version 2025-09-10" to create 35 different Poisson Distribution Models to predict the probability of seeing a specific bird species given your location.
 The Poisson Distribution Models were trained based off of: 
